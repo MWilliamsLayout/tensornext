@@ -1,0 +1,16 @@
+# Distributed AI Runtime PoC - Dependencies
+# Python 3.11+
+
+# Web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# HTTP client
+requests==2.31.0
+
+# ML framework
+torch>=2.0.0
+
+# Data validation
+pydantic==2.5.0
+
