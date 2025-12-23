@@ -11,10 +11,10 @@ from typing import List, Optional
 import torch
 import uvicorn
 
-from scheduler import Scheduler
-from executor import Executor
-from telemetry import TelemetryCollector
-from models.simple_model import create_model
+from .scheduler import Scheduler
+from .executor import Executor
+from .telemetry import TelemetryCollector
+from .models.simple_model import create_model
 
 
 # Request/Response models
